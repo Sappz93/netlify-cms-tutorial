@@ -14,6 +14,7 @@ module.exports = {
         name: `blog`,
       },
     },
+    `gatsby-transformer-remark`,
   ],
             
 }
