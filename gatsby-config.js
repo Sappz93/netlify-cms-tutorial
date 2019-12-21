@@ -5,16 +5,18 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: `Sappzo`,
+  },
   plugins: [
-    `gatsby-plugin-netlify-cms`, 
+    `gatsby-plugin-netlify-cms`,
     {
       resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/blog`,
-        name: `blog`,
-      },
+      options: 
+        {
+          name: `src`,
+          path: `${__dirname}/src/`,
+        },
     },
-    `gatsby-transformer-remark`,
-  ],
-            
+  ]
 }
