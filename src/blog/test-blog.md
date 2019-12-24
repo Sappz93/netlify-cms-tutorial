@@ -5,4 +5,4 @@ title: Test Blog
 ---
 My first blog post
 
-![](/assets/warrior-test1-min.png)
+
